@@ -1,0 +1,10 @@
+idades = []
+soma = 0
+for num in range(7):
+    id = int(input("Digite uma idade: "))
+    idades.append(id)
+for valor in idades:
+    soma += valor
+count = len(idades)
+media = soma / count
+print(media)
