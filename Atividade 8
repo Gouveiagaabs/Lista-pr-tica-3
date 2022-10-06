@@ -1,0 +1,5 @@
+divisor = 1
+numero = int(input("Digite um valor positivo: "))
+for divisor in range(divisor, numero+1):
+    if numero % divisor == 0:
+        print(divisor)
