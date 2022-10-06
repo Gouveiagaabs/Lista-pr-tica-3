@@ -1,0 +1,6 @@
+import statistics
+
+lista = [2, 4, 7, 2, 3, 3, 1, 0, 2, 6]
+moda = statistics.mode(lista)
+print("lista = " + str(lista))
+print("O número que mais se repete é " + str(moda))
